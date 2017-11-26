@@ -1,8 +1,8 @@
 CREATE TABLE IF NOT EXISTS `heroes` (
-  `char_id` decimal(11,0) NOT NULL default '0',
-  `char_name` varchar(45) NOT NULL default '',
-  `class_id` decimal(3,0) NOT NULL default '0',
-  `count` decimal(3,0) NOT NULL default '0',
-  `played` decimal(1,0) NOT NULL default '0',
-  PRIMARY KEY  (`char_id`)
+	`char_id`   DECIMAL(11, 0) NOT NULL DEFAULT '0',
+	`char_name` VARCHAR(45)    NOT NULL DEFAULT '',
+	`class_id`  DECIMAL(3, 0)  NOT NULL DEFAULT '0',
+	`count`     DECIMAL(3, 0)  NOT NULL DEFAULT '0',
+	`played`    DECIMAL(1, 0)  NOT NULL DEFAULT '0',
+	PRIMARY KEY (`char_id`)
 );
