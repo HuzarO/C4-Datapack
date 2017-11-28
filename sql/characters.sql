@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS `characters` (
 	`account_name`            VARCHAR(45)             DEFAULT NULL,
-	`obj_Id`                  DECIMAL(11, 0) NOT NULL DEFAULT 0,
+	`obj_Id`               INT NOT NULL,
 	`char_name`               VARCHAR(35)    NOT NULL,
 	`level`                   DECIMAL(11, 0)          DEFAULT NULL,
 	`maxHp`                   DECIMAL(11, 0)          DEFAULT NULL,

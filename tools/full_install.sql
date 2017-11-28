@@ -23,7 +23,7 @@ DROP TABLE `character_skills`;
 DROP TABLE `character_skills_save`;
 DROP TABLE `character_subclasses`;
 DROP TABLE `characters`;
-DROP TABLE `clan_data`;
+DROP TABLE `clans`;
 DROP TABLE `clan_wars`;
 DROP TABLE `clanhall`;
 DROP TABLE `class_list`;
